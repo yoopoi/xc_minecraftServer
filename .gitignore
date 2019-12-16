@@ -1,0 +1,10 @@
+server.jar
+banned-ips.json
+/logs
+ops.json
+usercache.json
+/world
+banned-players.json
+eula.txt
+server.properties
+whitelist.json

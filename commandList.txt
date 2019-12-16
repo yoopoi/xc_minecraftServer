@@ -1,2 +1,6 @@
-#yum -y install java-1.8.0-openjdk
-#yum -y install screen
+yum -y install java-1.8.0-openjdk
+yum -y install screen
+yum -y install wget
+yum -y install setup
+yum -y install perl
+wget https://launcher.mojang.com/mc/game/1.12.2/server/886945bfb2b978778c3a0288fd7fab09d315b25f/server.jar
