@@ -12,6 +12,9 @@ print txt
 if len(sys.argv) == 2:
     if sys.argv[1] == "-d":
         taskArr.append(Task("yum -y install java-1.8.0-openjdk"))
+        taskArr.append(Task("yum -y install java-1.8.0-openjdk"))
+        taskArr.append(Task("yum -y install java-1.8.0-openjdk"))
+
         
 else:
     print("请输入正确的参数")
