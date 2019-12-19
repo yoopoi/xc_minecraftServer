@@ -4,3 +4,9 @@ yum -y install wget
 yum -y install setup
 yum -y install perl
 wget https://launcher.mojang.com/mc/game/1.12.2/server/886945bfb2b978778c3a0288fd7fab09d315b25f/server.jar
+wget https://www.python.org/ftp/python/3.6.4/Python-3.6.4.tar.xz
+xz -d Python-3.6.4.tar.xz
+tar -xf Python-3.6.4.tar
+./configure prefix=/usr/local/python3
+make && make install
+ln -s /usr/local/python3/bin/python3.6 /usr/bin/python3
